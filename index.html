@@ -1,0 +1,63 @@
+<!-- -*- indent-tabs-mode: nil; tab-width: 2; -*- -->
+<!-- vim: set ts=2 sw=2 et ai : -->
+<!DOCTYPE html>
+<html xmlns='http://www.w3.org/1999/xhtml' lang='en'>
+  <head>
+    <meta charset='utf-8'/>
+    <title>抗精神病薬のクロルプロマジン換算を知ろう(CP等価換算) - Menhera.org</title>
+    <meta name="viewport" content="initial-scale=1,width=device-width"/>
+    <link rel="stylesheet" href="main.css"/>
+    <script defer="" src='main.js'></script>
+  </head>
+  <body class='transparent'>
+    <h1>抗精神病薬のクロルプロマジン換算を知ろう(CP等価換算)</h1>
+    <div id="calculator">
+      <fieldset>
+        <legend>フェノチアジン系</legend>
+        <p>クロルプロマジン (ウインタミン, コントミン) <input type="number" data-equivalent-dose="100"/> (100)</p>
+        <p>レボメプロマジン (レボトミン, ヒルナミン, ソフミン) <input type="number" data-equivalent-dose="100"/> (100)</p>
+        <p>フルフェナジン (フルデカシン, フルメジン) <input type="number" data-equivalent-dose="2"/> (2)</p>
+        <p>ペルフェナジン (ピーゼットシー(PZC), トリラホン, トリオミン) <input type="number" data-equivalent-dose="10"/> (10)</p>
+        <p>プロペリシアジン (ニューレプチル) <input type="number" data-equivalent-dose="20"/> (20)</p>
+      </fieldset>
+      <fieldset>
+        <legend>ブチロフェノン系</legend>
+        <p>ハロペリドール (セレネース, ケセラン, ハロステン, ブロトポン, リントン) <input type="number" data-equivalent-dose="2"/> (2)</p>
+        <p>ブロムペリドール (インプロメン) <input type="number" data-equivalent-dose="2"/> (2)</p>
+        <p>スピペロン (スピロピタン) <input type="number" data-equivalent-dose="1"/> (1)</p>
+        <p>チミペロン (セルマニル, トロペロン) <input type="number" data-equivalent-dose="1.3"/> (1.3)</p>
+        <p>ピパンペロン (プロピタン) <input type="number" data-equivalent-dose="200"/> (200)</p>
+        <p>モペロン (ルバトレン) <input type="number" data-equivalent-dose="12.5"/> (12.5)</p>
+        <p>ピモジド (オーラップ) <input type="number" data-equivalent-dose="4"/> (4)</p>
+      </fieldset>
+      <fieldset>
+        <legend>ベンズアミド系</legend>
+        <p>スルピリド (ドグマチール, ミラドール, アビリット) <input type="number" data-equivalent-dose="200"/> (200)</p>
+        <p>スルトプリド (バルネチール) <input type="number" data-equivalent-dose="200"/> (200)</p>
+        <p>ネモナプリド (エミレース) <input type="number" data-equivalent-dose="4.5"/> (4.5)</p>
+        <p>チアプリド (グラマリール) <input type="number" data-equivalent-dose="100"/> (100)</p>
+      </fieldset>
+      <fieldset>
+        <legend>その他</legend>
+        <p>ゾテピン (ロドピン) <input type="number" data-equivalent-dose="66"/> (66)</p>
+        <p>モサプラミン (クレミン) <input type="number" data-equivalent-dose="33"/> (33)</p>
+      </fieldset>
+      <fieldset>
+        <legend>非定型抗精神病薬 (第二世代抗精神病薬)</legend>
+        <p>クロザピン (クロザリル) <input type="number" data-equivalent-dose="50"/> (50)</p>
+        <p>リスペリドン (リスパダール) <input type="number" data-equivalent-dose="1"/> (1)</p>
+        <p>パリペリドン (インヴェガ) <input type="number" data-equivalent-dose="1.5"/> (1.5)</p>
+        <p>クエチアピン (セロクエル) <input type="number" data-equivalent-dose="66"/> (66)</p>
+        <p>オランザピン (ジプレキサ) <input type="number" data-equivalent-dose="2.5"/> (2.5)</p>
+        <p>ペロスピロン (ルーラン) <input type="number" data-equivalent-dose="8"/> (8)</p>
+        <p>アリピプラゾール (エビリファイ) <input type="number" data-equivalent-dose="4"/> (4)</p>
+        <p>ブロナンセリン (ロナセン) <input type="number" data-equivalent-dose="4"/> (4)</p>
+        <p>ブロナンセリン経皮 (ロナセンテープ) <input type="number" data-equivalent-dose="20"/> (20)</p>
+        <p>ブレクスピプラゾール (レキサルティ) <input type="number" data-equivalent-dose="0.5"/> (0.5)</p>
+        <p>ルラシドン (ラツーダ) <input type="number" data-equivalent-dose="10"/> (10)</p>
+      </fieldset>
+    </div>
+    <p><button id="calculate">計算</button></p>
+    <p><input type="number" id="result" readonly=""/> mg</p>
+  </body>
+</html>
